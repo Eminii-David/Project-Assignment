@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logotop{
+    background-color: aqua;
+    min-width: 25%;
+    float: left;
+}
+.logotop img{
+    width: 120px;
+    height: 150px;
+    min-width: 60%;
+    border-radius: 10px;
+}
+.brand{
+    min-width: 29%;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900; 
+}
+.social_icon{
+    min-width: 29%;
+    float: left;
+    display: inline;
+    padding-left: 20px;
+    
+}
+    .social_icon img{
+        width: 50px;
+        height: 50px;
+    }
+.topmenu{
+    clear: both;
+    
+}
+
+.rotate {
+    display: flex;
+    justify-content: center;
+}
+@keyframes rotation {
+    0% {background-color: aquamarine; right: 200px; top: 0px}
+    50% {background-color: goldenrod; left: 0px; top: 0px}   
+}
+@keyframes butt{
+    0% {background-color: aquamarine; right: 0px; top: 0px}
+    50% {background-color: goldenrod; left: 200px; top: 0px}
+}
+ul{ clear: both;
+    list-style-type: none;
+}
+.rotate button {
+    background-color: blueviolet;
+}
+.rotate button[type=buton]{
+    color: rgb(255, 0, 0);
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: 2s;
+    animation-timing-function: 4s;
+    animation-direction: alternate-reverse;    
+}
+.rotate button[type=menu]{
+    color: yellow;
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: 2s;
+    animation-timing-function: 4s;
+    animation-direction: alternate-reverse;
+}
+li{
+    display: inline;
+    padding-left:10px;
+    
+}
+.david {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rows{
+    /* float: left; */
+    width: 28%;
+    /* margin-left: 5px; 
+    margin-top: 7px; */
+    padding: 10px;
+    /* display: flex; */
+    background-color: blue;
+    /* flex-wrap: wrap; */
+    margin: 10px;
+    border-radius: 10px;
+}
+.rows:hover {
+    transform: scale(1.05);
+}
+.row2{
+    clear: both;
+}
+a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+}
+
+footer{
+  /* clear: both; */
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+/* .foot1{
+    min-width: 29%;
+    position:absolute; 
+    bottom: 0;
+    clear: both;
+}
+.foot2{
+    min-width: 29%;
+    height: 50px;
+    position: absolute; 
+    bottom: 0;
+}
+.foot1 img {
+    width: 100px;
+    height: 100px;
+} */

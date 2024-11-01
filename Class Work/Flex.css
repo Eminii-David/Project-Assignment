@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    
+}
+.row{
+    background-color: purple;
+    color: azure;
+    width: 22%;
+    padding: 5px;
+    margin: 4px;
+}
+.row:hover{
+    transform: scale(1.03);
+}
+.line{
+    color: yellow;
+}
